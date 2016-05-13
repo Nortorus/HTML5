@@ -1,0 +1,58 @@
+body {
+	background: #eee;
+}
+
+#wrapper {
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	background: white;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+nav, a{
+    background-color: lightgreen;
+    text-decoration: none;
+    color: black;
+}
+a{
+    padding-right: 2%;
+}
+h2{
+    color: red;
+}
+article footer{
+    color: lightgrey;
+}
+article footer:last-child{
+    margin-bottom: 5%;
+}
+table, th, td{
+    border: 1px solid black;
+}
+#primeFooter{
+    clear: both;
+    text-align: center;
+}
+aside{
+  width: 48%;
+  float: right;
+}
+main{
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+main, aside{
+    margin-bottom: 5%;
+}
